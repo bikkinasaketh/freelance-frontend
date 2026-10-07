@@ -1,0 +1,101 @@
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+.progress-update-container {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.progress-update-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  max-width: 700px;
+}
+
+.progress-update-card h2 {
+  margin: 0 0 8px;
+  color: #1e293b;
+}
+
+.form-subtitle {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.progress-update-card .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.progress-update-card label {
+  font-weight: 600;
+  color: #334155;
+}
+
+.progress-update-card input,
+.progress-update-card select,
+.progress-update-card textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.progress-update-card input:focus,
+.progress-update-card select:focus,
+.progress-update-card textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.progress-update-card button {
+  width: 100%;
+  padding: 13px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.progress-update-card button:hover {
+  background: #1d4ed8;
+}
+
+.progress-update-card button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: #15803d;
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .progress-update-card {
+    padding: 20px;
+  }
+}
